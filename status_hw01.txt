@@ -16,7 +16,7 @@ https://github.com/rohitppathak/web-development-2021
 
 
 5. Which parts of this assignment did you have trouble with, if any?
-None
+Figuring out how to point the domain name to the IP address.
 
 
 And here's a list of tasks for grading comments. Just leave this here:
