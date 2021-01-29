@@ -1,4 +1,6 @@
 # web-development-2021
 Web Development 2021
 
-Currently, files for HW1 are up.
+### HW02
+For the calculator, the arithmetic does not follow PEMDAS.
+Ex. 2 + 3 * 5 = 25, not 17
