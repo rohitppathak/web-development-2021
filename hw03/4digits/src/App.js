@@ -60,7 +60,6 @@ function PlayingGame({currentGuess, guesses, gameState, setCurrentGuess, answer,
     };
 
     const makeGuess = () => {
-        console.log(answer);
         if (currentGuess.length === guessLength) {
             const currentGuessInfo = guessInfo();
             guesses.push({digits: currentGuess, ...currentGuessInfo});

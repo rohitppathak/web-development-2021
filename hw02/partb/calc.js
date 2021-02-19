@@ -51,7 +51,6 @@ const calcState = {
         curState.operation = operation;
         curState.newNumber = true;
         curState.decimal = false;
-        console.log(curState);
         updateDisplay();
     }
 
