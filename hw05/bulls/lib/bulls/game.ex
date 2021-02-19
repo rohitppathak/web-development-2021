@@ -4,7 +4,6 @@ defmodule Hangman.Game do
 
   def new do
     answer = random_unique_sequence
-    IO.inspect(answer)
     %{
     guesses: [],
     answer: answer,
