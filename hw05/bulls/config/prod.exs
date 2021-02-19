@@ -10,8 +10,9 @@ use Mix.Config
 # which you should run after static files are built and
 # before starting your production server.
 config :bulls, BullsWeb.Endpoint,
-  url: [host: "http://www.hw05.rohitpathak.us", port: 80],
-  cache_static_manifest: "priv/static/cache_manifest.json"
+  url: [host: "hw05.rohitpathak.us", port: 80],
+  cache_static_manifest: "priv/static/cache_manifest.json",
+  check_origin: ["*.hw05.rohitpathak.us"]
 
 # Do not print debug messages in production
 config :logger, level: :info
